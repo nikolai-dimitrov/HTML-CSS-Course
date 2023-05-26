@@ -1,0 +1,89 @@
+body {
+  background-color: #F1F6FA;
+}
+
+.section {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding: 100px 50px;*/
+  padding: 48px 24px;
+}
+
+.section__title,
+.section__desc {
+  max-width: 540px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__title {
+  color: #292D33;
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+
+.section__desc {
+  margin-bottom: 50px;
+  color: #9497A1;
+  font-size: 18px;
+}
+
+.benefits .benefit:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.benefits .benefit {
+  padding: 46px 35px;
+  background-color: #FFFFFF;
+}
+
+.benefits .benefit .benefit__title {
+  font-size: 22px;
+  margin-bottom: 16px;
+
+}
+
+.benefits .benefit .benefit__desc {
+  color: gray;
+}
+
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .benefits .benefit {
+    padding: 46px 24px;
+    background-color: #FFFFFF;
+  }
+
+  .benefits .benefit:not(:last-child) {
+    margin-bottom: unset;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section {
+    padding: 80px 50px;
+  }
+  .section .section__title {
+    font-size: 46px;
+    margin-bottom: 30px;
+  }
+  .section .section__desc {
+    font-size: 20px;
+  }
+  .benefits {
+    gap: 30px;
+  }
+
+  .benefits .benefit {
+    padding: 46px 35px;
+  }
+}

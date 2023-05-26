@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: Montserrat, sans-serif;
+
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+section {
+  background-color: #f6e0b5;
+  display: grid;
+  grid-template-columns: repeat(5,170px);
+  grid-template-rows: repeat(2,200px);
+  grid-template-areas:
+  'music music celebrity celebrity info'
+  'tv tv arts arts info';
+  gap: 30px;
+  justify-content: center;
+  padding: 100px 0 100px 0;
+}
+
+.music-card {
+  grid-area: music;
+
+}
+.celebrity-card {
+  grid-area: celebrity;
+
+}
+.tv-card {
+  grid-area: tv;
+
+}
+.arts-card {
+  grid-area: arts;
+
+}
+.feature__items {
+  grid-area: info;
+}
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid black;
+  box-shadow: 5px 2px 30px 1px rgb(1 1 1);
+}
+.img__wrapper {
+  width: 100%;
+  height: 83%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  /*object-fit: cover;*/
+  object-position: center;
+}
+.card h2 {
+  color: #FFFFFF;
+  background-color: #66545e;
+  font-size: 19px;
+  padding: 5px 5px;
+
+}
+.features__items h4 {
+  color:#66545e;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.features__items .feature__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.feature__item a {
+  text-decoration: none;
+  color:#66545e;
+}
+.feature__item i {
+  color:#66545e;
+}

@@ -1,0 +1,13 @@
+/* TODO: Add media queries */
+.thumbnails {
+  flex-direction: column;
+}
+
+.thumbnails > div {
+  width: unset;
+}
+
+img {
+  height: 200px;
+  object-fit: cover;
+}

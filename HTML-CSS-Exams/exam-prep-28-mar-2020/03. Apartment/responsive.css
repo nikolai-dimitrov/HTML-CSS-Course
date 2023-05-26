@@ -1,0 +1,8 @@
+@media screen and (max-width: 468px) {
+  header .div-header {
+    display: none;
+  }
+  .div-header .div-logo {
+    background-color: red;
+  }
+}

@@ -1,0 +1,80 @@
+:root {
+  --clr-btn-green: #3ca87c;
+  --clr-text-green: #cefde9;
+  --clr-text-gray: #757576;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
+
+.card {
+  width: 1250px;
+  margin: 200px auto 0 auto;
+  /*border: 1px solid black;*/
+}
+
+.card .card__title {
+  font-size: 64px;
+}
+
+.card .card__subtitle {
+  color: var(--clr-text-gray);
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.card .card__body {
+  /*display: flex;*/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
+}
+
+.card .left-side {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+.card .left-side .card__button {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--clr-btn-green);
+  border: 1px solid var(--clr-btn-green);
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 10px 65px;
+}
+
+.card .right-side {
+  order: -10;
+  width: 50%;
+}
+.card .right__title {
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+.card .right__desc span {
+  background-color: #cefde9;
+}
+.card .right__desc {
+  font-size: 25px;
+  color: var(--clr-text-gray);
+}
+
+.card .divider {
+  height: 1px;
+  width: 35%;
+  background-color: var(--clr-text-gray);
+  position: relative;
+  left: 350px;
+}

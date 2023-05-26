@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+}
+
+.left-card {
+  background-color: #e3f3fd;
+  border-radius: 6px;
+  padding: 35px;
+  box-shadow: 0 2px 7px 1px rgba(195, 199, 202, 1);
+}
+
+.left-card h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #435162;
+}
+
+.left-card .feature .feature__desc {
+  color: #797d7f;
+}
+
+.feature:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+i {
+  color: #45a9f8;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+/*SECOND CARD*/
+.right-card {
+  border: 5px solid #45a9f8;
+  border-radius: 6px;
+  width: 544px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.right-card .heading {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.right-card .heading p {
+  font-size: 20px;
+  color: #797d7f;
+}
+
+.right-card h1 {
+  font-size: 46px;
+  font-weight: 500;
+  color: #45a9f8;
+  line-height: 1;
+}
+
+.right-card__desc {
+  color: #797d7f;
+  font-size: 18px;
+}
+
+.right-card button {
+  background-color: #45a9f8;
+  color: #FFFFFF;
+  border: 1px solid #45a9f8;
+  padding: 4px 36px;
+  border-radius: 6px;
+}

@@ -1,0 +1,24 @@
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.check i {
+  font-size: 25px;
+  color: #2fcc71;
+}
+
+.star i {
+  font-size: 25px;
+  color: coral;
+}
+
+ul.contact i {
+  font-size: 25px;
+  color: #3498da;
+}

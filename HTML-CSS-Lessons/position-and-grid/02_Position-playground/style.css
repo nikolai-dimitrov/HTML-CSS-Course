@@ -1,0 +1,27 @@
+@import url("https://kit.fontawesome.com/842012a7cc.js");
+
+
+div.viewport {
+  position: relative;
+  background-color: orange;
+  height: 400px;
+}
+
+div.viewport:nth-last-child(2) {
+  background-color: deepskyblue;
+  position: relative;
+  height: 400px;
+}
+
+img {
+  position: absolute;
+  width: 20%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.card {
+  display: block;
+
+}

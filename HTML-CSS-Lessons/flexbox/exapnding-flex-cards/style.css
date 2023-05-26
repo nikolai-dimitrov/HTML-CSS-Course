@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+}
+
+section.container {
+  display: flex;
+  width: 900px;
+  height: 200px;
+}
+
+section.container img {
+  border-radius: 10px;
+  width: 150px;
+  height: 200px
+}
+
+section.container img:nth-child(2) {
+  flex-grow: 3;
+}
+

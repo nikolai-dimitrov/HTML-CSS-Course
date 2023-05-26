@@ -1,0 +1,195 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');*/
+
+body {
+  font-family: Roboto, sans-serif;
+  max-width: 1094px;
+  background-color: #f2f0f3;
+  margin: 0 auto
+;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", sans-serif;
+}
+main {
+  display: flex;
+}
+
+.hero {
+  background-image: url("image/image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.hero .logo {
+  width: 20%;
+  background-color: transparent;
+  border: 1px solid #797776;
+  border-radius: 3px;
+  padding: 20px 0 25px 15px ;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  box-shadow: 3px 1px 4px -1px rgba(121, 119, 118, 1);
+}
+
+.hero .logo .logo__title {
+  width: 60%;
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+.hero .logo .logo__divider {
+  background-color: #FFFFFF;
+  height: 2px;
+  width: 55%;
+  margin-bottom: 15px;
+}
+.hero .logo .logo__sub_title {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.hero .desc-container {
+  position: absolute;
+  right: 20px;
+  top: 230px;
+  width: 30%;
+  /*background-color:#9c928b ;*/
+  background: rgb(156,146,139);
+  background: linear-gradient(90deg, rgba(156,146,139,1) 2%, rgba(203,200,199,1) 65%);
+  box-shadow: 3px 1px 4px -1px rgba(121, 119, 118, 1);
+}
+.hero .desc-container .desc {
+  width: 86%;
+  text-align: right;
+  padding: 54px 15px 15px 15px;
+  color: #FFFFFF;
+  margin-left: 46px;
+}
+.desc-container::before {
+  content: open-quote;
+  font-size: 50px;
+  position: absolute;
+  color: #8d8581;
+  right: 15px;
+  top: 20px;
+}
+
+/*SECTION SERVICES*/
+/*.services .services_items {*/
+/*  display: flex;*/
+/*}*/
+.services {
+  width: 100%;
+  padding: 50px 0px 50px 80px;
+
+}
+.services .services__title {
+  font-size: 34px;
+  margin-left: 14px;
+  margin-bottom: 25px;
+}
+.services .item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+.services .item__desc {
+  text-indent: 25px;
+  font-size: 16px;
+}
+.services i {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  padding: 2px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 15px;
+  top: 2px;
+}
+.services span {
+  font-weight: bold;
+}
+/*CONTACTS SECTION*/
+
+.contacts {
+  width: 100%;
+}
+.contacts .contacts__title {
+  margin-left: 95px;
+  font-size: 34px;
+}
+.contacts .contacts__divider {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+.contacts .contact-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 25px 0 25px 95px;
+}
+.contacts .contact__item span {
+  font-weight: bold;
+}
+.contacts form {
+  padding: 0 0 25px 95px;
+}
+.contacts form input {
+  width: 50%;
+  padding: 5px 10px;
+  background-color: #bab1ad;
+  border: 1px solid #bab1ad;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+.contacts form input::placeholder {
+  color: #FFFFFF;
+}
+
+
+.contacts form button {
+  padding: 5px 10px;
+  background-color: #67784d;
+  color: #FFFFFF;
+  border: 1px solid #67784d;
+  border-radius: 6px;
+}
+.left-section-wrapper {
+  width: 70%;
+}
+
+/*LAST SECTION ASIDE*/
+.aside {
+  display: flex;
+  width: 30%;
+  background-color: #bab1ad;
+}
+.aside .aside__items {
+  width: 100%;
+  padding: 50px 0 50px 20px;
+}
+.aside .aside__items .num {
+  color: #FFFFFF;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 100;
+}
+.aside .aside__items .type {
+  font-size: 14px;
+}
+.aside li:not(:last-child) {
+  margin-bottom: 110px;
+  /*color: red;*/
+}

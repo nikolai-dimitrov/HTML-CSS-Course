@@ -1,0 +1,41 @@
+header {
+  background-color: #0d489f;
+}
+nav {
+  display: flex;
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 1300px;
+  height: 50px;
+  background-color: #0d489f;
+  margin: 0;
+  padding: 0;
+}
+header nav div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header nav div a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}

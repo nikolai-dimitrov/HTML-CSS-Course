@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {
+  body * {
+    /*font-size: 10px;*/
+  }
+  .w3-top .w3-bar {
+    padding: 0;
+  }
+  .w3-top .w3-right {
+    display: none;
+  }
+  .w3-content .w3-col.m6.w3-padding-large.w3-hide-small {
+    display: none;
+  }
+  .w3-content .w3-col.m6.w3-padding-large {
+    width: 100%;
+  }
+  .w3-content .w3-col.m6.w3-padding-large p {
+    font-size: 14px;
+  }
+  .w3-content .w3-col.m6.w3-padding-large h1 {
+    font-size: 26px;
+  }
+  .w3-content .w3-col.m6.w3-padding-large h5 {
+    font-size: 14px;
+  }
+  
+  .w3-content .w3-col.l6.w3-padding-large {
+    width: 100%;
+  }
+  .w3-content .w3-col h4 {
+    font-size: 16px;
+  }
+  .w3-content .w3-col.l6.w3-padding-large p {
+    font-size: 13px;
+  }
+  .w3-content .w3-container.w3-padding-64 h1 {
+    font-size: 26px;
+  }
+  .w3-content .w3-container.w3-padding-64 p:not(:nth-of-type(2)) {
+    font-size: 14px;
+  }
+  .w3-content form input {
+    font-size: 12px;
+  }
+}

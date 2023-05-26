@@ -1,0 +1,37 @@
+.square-ul {
+  list-style-type: square;
+}
+
+.disc-ul {
+  list-style-type: disc;
+}
+
+.circle-ul {
+  list-style-type: circle
+}
+html {
+  line-height: 1.5;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+}
+/*p, li {*/
+/*  line-height: 1.5;*/
+/*  font-family: Raleway, sans-serif;*/
+/*  font-size: 16px;*/
+/*}*/
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+/*section article ul  ul  ul {*/
+/*    list-style-type:circle*/
+/*}*/

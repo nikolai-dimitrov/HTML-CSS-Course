@@ -1,0 +1,41 @@
+body{
+  margin: 0 60px 0 60px;
+  font-family: Helvetica, sans-serif;
+}
+header {
+  /*font-family: Helvetica, sans-serif;*/
+  margin-top: 40px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+}
+
+
+/*a:hover {*/
+/*  color: red;*/
+/*}*/
+
+
+

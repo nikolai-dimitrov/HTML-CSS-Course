@@ -1,0 +1,229 @@
+:root {
+  --clr-orange: #e24d2a;
+  --clr-grey-light: #ececec;
+  --clr-grey-dark: #3f3f3f;
+  --clr-grey-bg: #383838;
+  --clr-grey-text: #5d5954;
+  --clr-green: #359772;
+  --clr-green-text: #3aa483;
+  --clr-green-link: #8ec2aa;
+  --clr-white: #ffffff;
+
+  --nav-heigh: 117px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: var(--clr-grey-dark);
+}
+
+.header {
+  padding: 20px 50px 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: var(--clr-white);
+}
+
+.header .logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+header .logo-wrapper .header__title {
+  font-size: 40px;
+  color: black;
+}
+
+header .logo-wrapper .divider {
+  width: 1px;
+  height: 56px;
+  background-color: var(--clr-grey-dark);
+  margin: 0 15px 0 15px;
+}
+
+header .logo-wrapper .header__sub-title {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1.1px;
+  margin: 0 0 -11px 0;
+}
+
+.header .nav {
+  display: flex;
+  gap: 2px;
+}
+
+.header .nav .nav__item:first-child {
+  background-color: var(--clr-orange);
+}
+
+.header .nav .nav__item {
+  background-color: var(--clr-grey-light);
+  padding: 20px;
+}
+
+.header .nav__item a {
+  text-decoration: none;
+  color: var(--clr-grey-dark);
+  font-size: 18px;
+  letter-spacing: 1.1px;
+}
+
+.header .nav .nav__item .first__a {
+  color: var(--clr-white);
+}
+
+/*HERO SECTION*!*/
+.hero {
+  height: calc(100vh - var(--nav-heigh));
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*overflow: hidden;*/
+}
+
+.hero .img__wrapper {
+  /*width: 100%;*/
+  height: 69%;
+  /*overflow: hidden;*/
+}
+
+.hero .img__wrapper .hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .desc__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 31%;
+  background-color: var(--clr-orange);
+}
+
+.hero .desc__wrapper .hero__desc {
+  color: #f1c3bb;
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.hero .desc__wrapper .hero__desc a {
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
+/*FEATURES*/
+.features .section__grid {
+  padding: 120px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  background-color: var(--clr-grey-bg);
+}
+
+.features .section__grid .section__grid__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features .section__grid .section__grid__item .icon__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: var(--clr-orange);
+}
+
+.features .section__grid .icon__container i {
+  font-size: 50px;
+  color: var(--clr-white);
+}
+
+
+.features .section__grid .section__grid__item .title {
+  color: var(--clr-white);
+  margin-bottom: 25px;
+}
+
+.features .section__grid .divider_vertical {
+  height: 1px;
+  width: 100%;
+  background-color: var(--clr-grey-text);
+  margin-bottom: 30px;
+}
+
+.features .section__grid .section__grid__item .desc {
+  color: var(--clr-grey-text);
+  font-size: 21px;
+  text-align: center;
+}
+/*MAECENAS SECTION -WHITE*/
+.maecenas {
+  background-color: var(--clr-white);
+  padding: 100px 0;
+}
+.maecenas__wrapper {
+  text-align: center;
+}
+.maecenas .maecenas__title {
+  font-size: 49px;
+  letter-spacing: 1.1px;
+  font-weight: 400;
+  color: var(--clr-grey-text);
+}
+.maecenas .maecenas__desc {
+  /*color: var(--clr-grey-text);*/
+  color: #aaa5a2;
+  font-size: 27px;
+  padding-bottom: 40px;
+}
+.maecenas .maecenas__btn {
+  background-color: var(--clr-green);
+  border: none;
+  color: var(--clr-white);
+  padding: 15px 70px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+}
+/*FEATURE SECTION ONLY TEXT NO ICONS*/
+.features .section__grid .section__grid__item .title.title-text {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+/*FOOTER SECTION*/
+.footer .more__information {
+  background-color: var(--clr-green);
+  padding: 150px 0 150px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.footer .more__information p {
+  /*color: var(--clr-green-text);*/
+  color: #47af95;
+  letter-spacing: 2.5px;
+}
+.footer .more__information span {
+  color: var(--clr-green-link);
+  letter-spacing: 2.5px;
+}
+.footer .more__information .divider-small {
+  width: 2px;
+  height: 20px;
+  background-color:#47af95;
+  margin: 0 10px 0 10px;
+}

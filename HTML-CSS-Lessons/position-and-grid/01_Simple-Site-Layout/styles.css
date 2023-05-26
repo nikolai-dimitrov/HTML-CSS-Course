@@ -1,0 +1,72 @@
+body {
+  /*background-color: rgb(181, 216, 255);*/
+  border-radius: 3px;
+  padding: 5px 10px;
+  display: grid;
+  grid-template-columns:100px auto;
+  /*grid-template-columns:repeat(2,100px auto);*/
+  /*grid-template-rows: repeat(2, 100px auto);*/
+  gap: 10px;
+  grid-template-areas:
+  'hed hed'
+  'nav cont'
+  'foot foot';
+}
+
+/*div.page-layout {*/
+/*  !*background-color: rgb(181, 216, 255);*!*/
+/*  border-radius: 3px;*/
+/*  padding: 5px 10px;*/
+/*  display: grid;*/
+/*  grid-template-columns:repeat(3, 200px);*/
+/*  grid-template-rows: repeat(3, 200px);*/
+/*  gap: 10px;*/
+/*  grid-template-areas:*/
+/*    'hed hed mid'*/
+/*    'nav cont cont'*/
+/*    'foot foot foot';*/
+/*}*/
+
+header {
+  vertical-align: middle;
+  grid-area: hed;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  /*border: 1px solid black;*/
+}
+aside ul li {
+  text-decoration: none;
+  padding-top: 10px;
+  /*border: 1px solid black;*/
+  margin-top: 10px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  /*border: 1px solid black;*/
+}
+aside {
+  grid-area: nav;
+  /*border: 1px solid black;*/
+}
+
+main {
+  grid-area: cont;
+}
+
+footer {
+  grid-area: foot;
+}
+body > * {
+  background-color: rgb(181, 216, 255);
+  border-radius: 5px;
+}

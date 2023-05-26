@@ -1,0 +1,21 @@
+main {
+  width: 900px;
+  height: 140px;
+  /*vertical-align: middle;*/
+}
+
+img {
+  border-right: 1px solid #d1d1d1;
+  margin-right: 19px;
+  padding-right: 19px;
+  width: 45%;
+}
+p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #2e2e2e;
+  text-align: justify;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}

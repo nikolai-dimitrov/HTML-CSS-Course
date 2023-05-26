@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  main {
+    margin: 0;
+    width: 100%;
+  }
+  main .left-to-right:first-child {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .left-to-right:first-child button {
+    display: none;
+  }
+
+  main h1 {
+    font-size: 32px;
+  }
+  main section:nth-child(2) {
+    flex-direction: column;
+  }
+  main section:nth-child(2) article {
+    align-items: center;
+  }
+  main section:nth-child(2) article button,
+  main section:nth-child(3) article button{
+    display: none;
+  }
+  main section.left-to-right:nth-child(3) {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .left-to-right article {
+    padding: 20px 20px;
+    border-radius: 20%;
+    max-width: 430px;
+    /*max-height: 407px;*/
+    height: 400px;
+  }
+  main section:nth-child(4) {
+    flex-direction: column;
+    align-items: center;
+  }
+  main section:nth-child(4) article {
+
+  }
+  main section:nth-child(4) article form {
+    width: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+  main section:nth-child(4) article form input,
+  main section:nth-child(4) article form textarea{
+    width: 100%;
+  }
+  main section:nth-child(4) article form label:nth-child(4) input {
+    width: 30%;
+    display: flex;
+  }
+
+}

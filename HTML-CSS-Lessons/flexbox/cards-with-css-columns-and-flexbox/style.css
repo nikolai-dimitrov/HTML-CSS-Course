@@ -1,0 +1,165 @@
+/*.cards-layout.masonry .card .card__img {*/
+
+/*}*/
+/*.cards-layout.masonry {*/
+/*  display: grid;*/
+/*  grid-template-columns: repeat(3, 200px);*/
+/*  gap: 24px;*/
+/*  grid-template-areas:*/
+/*  "first second third"*/
+/*  "fourth fifth sixth"*/
+/*  "seventh eight .";*/
+/*}*/
+/*.mountain-img-1 {*/
+/*  grid-area: first;*/
+/*}*/
+/*.mountain-img-2 {*/
+/*  grid-area: fifth;*/
+/*}*/
+/*.green-img-1 {*/
+/*  grid-area: second;*/
+/*}*/
+/*.green-img-2 {*/
+/*  grid-area: sixth;*/
+/*}*/
+/*.tower-img-1 {*/
+/*  grid-area: third;*/
+/*}*/
+/*.tower-img-2 {*/
+/*  grid-area: seventh;*/
+/*}*/
+
+/*.lizard-img-1 {*/
+/*  grid-area: fourth;*/
+/*}*/
+/*.lizard-img-2 {*/
+/*  grid-area: eight;*/
+/*}*/
+
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+/*stretched layout*/
+
+.card {
+  border-radius: 8px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.cards-layout.flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  gap: 10px;
+}
+
+.cards-layout.flex .card {
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.card .card__body {
+  padding: 16px;
+}
+
+.card .body__title {
+  margin: 0;
+}
+
+.cards-layout.flex .card .card__img {
+  width: 250px;
+}
+
+footer {
+  padding: 16px;
+}
+
+.cards-layout.flex article:nth-child(1) {
+  order: -1;
+}
+
+.cards-layout.flex article:nth-child(2) {
+  order: 3;
+}
+
+.cards-layout.flex article:nth-child(3) {
+  order: 2;
+}
+
+.cards-layout.flex article:nth-child(4) {
+  order: 6;
+}
+
+.cards-layout.flex article:nth-child(5) {
+  order: 1;
+}
+
+.cards-layout.flex article:nth-child(6) {
+  order: 5;
+}
+
+.cards-layout.flex article:nth-child(7) {
+  order: 4;
+}
+
+.cards-layout.flex article:nth-child(8) {
+  order: 0;
+}
+
+/*Layout masonry */
+
+.cards-layout.masonry {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-height: 2000px;
+}
+
+.cards-layout.masonry .card {
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.cards-layout.masonry .card .card__img {
+  width: 250px;
+}
+
+
+.cards-layout.masonry article:nth-child(1) {
+  order: -1;
+}
+
+.cards-layout.masonry article:nth-child(2) {
+  order: 3;
+}
+
+.cards-layout.masonry article:nth-child(3) {
+  order: 2;
+}
+
+.cards-layout.masonry article:nth-child(4) {
+  order: 6;
+}
+
+.cards-layout.masonry article:nth-child(5) {
+  order: 1;
+}
+
+.cards-layout.masonry article:nth-child(6) {
+  order: 5;
+}
+
+.cards-layout.masonry article:nth-child(7) {
+  order: 4;
+}
+
+.cards-layout.masonry article:nth-child(8) {
+  order: 0;
+}

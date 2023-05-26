@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 20px 50px;
+}
+
+header {
+  /*min-width: 1100px;*/
+}
+
+main {
+  display: inline-block;
+  width: 70%;
+}
+
+
+header p {
+  display: inline-block;
+  font-size: 30px;
+  width: 70%;
+}
+
+header nav {
+  display: inline-block;
+  width: 29%;
+  padding: 0;
+  margin: 0;
+  /*min-width: 315px;*/
+}
+
+header nav ul {
+  /*text-align: right;*/
+  padding: 0;
+  margin-left: 15px;
+}
+
+/*ul {*/
+/*  !*padding: 0;*!*/
+/*}*/
+
+header nav ul li {
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+hr {
+  border: 1px solid black;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 7px 7px 0 0 rgba(0, 0, 0, 0.25);
+  border: 2px solid black;
+}
+
+a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+
+header nav a {
+  padding: 5px 8px;
+  margin: 5px 8px;
+}
+
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 29%;
+}
+
+aside nav ul {
+  margin-left: 50px;
+  padding: 0;
+}
+
+aside h3 {
+  margin-left: 25px;
+}
+
+.right-image {
+  float: right;
+  margin-left: 20px;
+  height: 150px;
+}
+
+.left-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.middle-text-container p {
+  display: inline-block;
+  width: 40%;
+  padding-right: 6%;
+  /*margin-right: 8%;*/
+  border-right: 2px solid gray;
+}
+
+
+.middle-text-container p:nth-child(2) {
+  border-right: none;
+  position: relative;
+  top: -76px;
+  left: 30px;
+}
+.middle-text-container {
+  position: relative;
+}
+
+span {
+  position: absolute;
+  top: 140px;
+  left: 700px;
+}

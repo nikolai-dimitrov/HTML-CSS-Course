@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+  .banner {
+    padding: 50px 0 10px 0;
+
+  }
+  .banner h2 {
+    width: 80%;
+    font-size: 1.4em;
+  }
+  .banner p {
+    font-size: 1em;
+  }
+  .banner .actions li {
+    width: 90%;
+  }
+  .banner .actions li a {
+    width: 100%;
+  }
+  .wrapper {
+    padding: 2em 0 2em 0;
+  }
+  header.major {
+    margin-bottom: 2em;
+  }
+  .wrapper > .inner {
+    width: unset;
+  }
+  .features {
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+    margin: 0;
+  }
+  .feature {
+    width: auto;
+    margin: 0 0 0 0 ;
+    padding: 2em 0em 2em 0em;
+  }
+  .feature p {
+    margin: 0;
+  }
+
+  .grid-form {
+    padding: 0 20px 0 20px;
+    flex-direction: column;
+    margin: 0;
+  }
+  .grid-form .form-control.narrow {
+    width: unset;
+  }
+  .wrapper > .inner.narrow {
+    width: unset;
+  }
+  .grid-form .actions li {
+    width: 100%;
+  }
+  .grid-form .actions li input {
+    width: 100%;
+  }
+  .footer:before {
+    left: 7%;
+    width: 84%;
+  }
+  .footer {
+    padding: 1em 0 1em 0;
+  }
+  .footer .copyright {
+    margin: 0;
+  }
+}
+

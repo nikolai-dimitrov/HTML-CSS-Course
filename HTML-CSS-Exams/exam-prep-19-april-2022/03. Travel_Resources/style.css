@@ -1,0 +1,221 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 30px 100px;
+  justify-content: end;
+  position: relative;
+}
+
+.logo {
+  background-color: #b28b25;
+  border-radius: 4px;
+  padding: 40px;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+
+.nav-container .first__nav {
+  display: flex;
+  gap: 60px;
+  justify-content: end;
+}
+
+.nav-container .first__nav i {
+  color: #5d6d8a;
+}
+
+.nav-container .first__nav a {
+  color: #5d6d8a;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-container .first__nav i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.nav-container .first__nav .first__nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-container .second__nav {
+  display: flex;
+  gap: 59px;
+  font-size: 14px;
+}
+
+.nav-container .second__nav a {
+  color: #5d6d8a;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.hero {
+  background: url("image/slider.jpg");
+  background-position: center;
+  /*object-fit: contain;*/
+  height: 58vh;
+  padding: 200px 100px 0 100px;
+}
+
+.hero .hero__desc-wraper {
+  width: 45%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 23px 30px 23px;
+}
+
+.hero .hero__desc {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 73%;
+}
+
+.hero .hero-btn {
+  padding: 8px 24px;
+  font-size: 19px;
+  background: transparent;
+  border: 4px solid #FFFFFF;
+  color: #f6a70c;
+}
+
+/*.hero .hero-btn:hover {*/
+/*  background: red;*/
+/*}*/
+
+/*FATURES SECTION*/
+.features {
+  background-color: #b28b25;
+  /*display: flex;*/
+  padding: 25px 0 25px 0;
+}
+
+.features .features__title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.features .feature__items {
+  width: 44%;
+  margin: 0 auto 18px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.features .item {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.features .item i {
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
+.features .item p {
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
+.features .features-btn {
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  border: 4px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 8px 24px;
+  font-size: 19px;
+}
+
+/*DESTINATIONS SECTION*/
+
+.destinations {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.destinations .destinations__heading-container {
+  text-align: center;
+  color: #4c5473;
+  padding: 40px 0 20px 0;
+}
+
+.destinations .destinations__heading-container h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.destinations .destinations__heading-container p {
+  font-size: 20px;
+}
+
+.destinations .cards__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  text-align: center;
+  color: #4c5473;
+  margin: 0 auto;
+  width: 90%;
+}
+.destinations .card {
+  font-size: 14px;
+}
+.destinations .card__img-wrapper {
+  border-radius: 100%;
+  overflow: hidden;
+  border: 3px solid #4c5473;
+}
+
+.destinations .card__img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+/*SECTION NEWSLETTER*/
+.newsletter {
+  background-color: #b28b25;
+  padding: 15px 20px 10px 20px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.newsletter .newsletter__desc {
+  font-weight: 200;
+}
+.newsletter .newsletter-btn {
+  padding: 8px 24px;
+  font-size: 19px;
+  background: transparent;
+  border: 3px solid #FFFFFF;
+  color: #FFFFFF;
+}
+/*SECTION FOOTER*/
+.footer {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
